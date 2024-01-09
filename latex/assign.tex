@@ -1,0 +1,202 @@
+\documentclass[10pt,-letter paper]{article}
+\usepackage[left=1in, right=0.75in, top=1in, bottom=0.75in]{geometry}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{siunitx}
+\usepackage{setspace}
+\usepackage{gensymb}
+\usepackage{xcolor}
+\usepackage{caption}
+%\usepackage{subcaption}
+\doublespacing
+\singlespacing
+\usepackage[none]{hyphenat}
+\usepackage{amssymb}
+\usepackage{relsize}
+\usepackage[cmex10]{amsmath}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{commath}
+\usepackage{amsthm}
+\interdisplaylinepenalty=2500
+%\savesymbol{iint}
+\usepackage{txfonts}
+%\restoresymbol{TXF}{iint}
+\usepackage{wasysym}
+\usepackage{amsthm}
+\usepackage{mathrsfs}
+\usepackage{txfonts}
+\let\vec\mathbf{}
+\usepackage{stfloats}
+\usepackage{float}
+\usepackage{cite}
+\usepackage{cases}
+\usepackage{subfig}
+%\usepackage{xtab}
+\usepackage{longtable}
+\usepackage{multirow}
+%\usepackage{algorithm}
+\usepackage{amssymb}
+%\usepackage{algpseudocode}
+\usepackage{enumitem}
+\usepackage{mathtools}
+%\usepackage{eenrc}
+%\usepackage[framemethod=tikz]{mdframed}
+\usepackage{listings}
+%\usepackage{listings}
+\usepackage[latin1]{inputenc}
+%%\usepackage{color}{   
+%%\usepackage{lscape}
+\usepackage{textcomp}
+\usepackage{titling}
+\usepackage{hyperref}
+%\usepackage{fulbigskip}   
+\usepackage{tikz}
+\usepackage{graphicx}
+\lstset{
+  frame=single,
+  breaklines=true
+}
+\let\vec\mathbf{}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{siunitx}
+\let\vec\mathbf{}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{tfrupee}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mwe} % for blindtext and example-image-a in example
+\usepackage{wrapfig}
+\graphicspath{{figs/}}
+\providecommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
+\providecommand{\myvec}[1]{\ensuremath{\begin{bmatrix}#1\end{bmatrix}}}
+\providecommand{\cbrak}[1]{\ensuremath{\left\{#1\right\}}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+\title{MATHEMATICS}
+\author{SECTION A}
+\date{\today}
+\begin{document}
+
+\maketitle
+
+\begin{enumerate}
+\section{Matrices}
+\item $ A $ is a square matrix with $\mydet{A} = 4 $. Then find the value of  $\mydet{ A .\brak{\text{adj} A}}$.
+
+\item For the matrix $A = \myvec{2 & 3  \\ 5 & 7} $ . Find $\brak{A + A'}$ and verify that it is a symmetric matrix.
+
+\item Using elementary row transformations, find the inverse of the matrix
+$\myvec{2 & -3 &5 \\ 3 & 2 & -4 \\ 1 & 1 & -2}$ 
+
+
+\item Using matrices, solve the following system of linear equations :
+\begin{align*}
+ x+2y-3z=-4\\
+ 2x+3y+2z=2\\
+ 3x-3y-4z=11
+\end{align*}
+
+
+\item Using properties of determinants, find the value of $k $ if
+$\mydet{x & y & x+y \\ y & x+y & x \\ x+y & x & y} =k\mydet{x^{3}+y^{3}}$.
+
+
+\section{probability}
+\item In a multiple choice examination with three possible answers for each of the five questions, what is the probability that a candidate would get four or more correct answers just by guessing ?
+
+\item The probabilities of solving a specific problem independently by $A$ and $B$ are $\frac{1}{3}$ and $\frac{1}{5}$ respectively. If both try to solve the problem independently, find the probability that the problem is solved.
+
+\item There are three coins. One is a coin having tails on both faces, another is a biased coin that comes up tails $70\%$ of the time and the third is an unbiased coin. One of the coins is chosen at random and tossed, it shows tail. Find the probability that it was a coin with tail on both the faces.
+
+\section{Algebra}
+\item Prove that :
+\begin{align*}
+\cos^{-1}\brak{\frac{12}{13}}+\sin^{-1}\brak{\frac{3}{5}}=\sin^{-1} \brak{\frac{56}{65}}
+\end{align*}
+
+\section{vector}
+\item Find the vector equation of the plane which contains the line of intersection of the planes 
+$ \overrightarrow{r}.\brak{\hat{i} + 2\hat{j}+3\hat{k}}-4=0$ , $\overrightarrow{r}.
+\brak{2\hat{i} + \hat{j} - \hat{k}}+5=0$ and which is perpendicular to the plane $\overrightarrow{r}.\brak{5\hat{i} + 3\hat{j} - 6\hat{k}}+8=0$.
+
+\item Find the vector equation of a line passing through the point
+$\brak{2, 3, 2}$ and parallel to the line $\overrightarrow{r}=\brak{-2\hat{i} +3\hat{j}}\lambda\brak{2\hat{i} - 3\hat{j}+6\hat{k}}$.
+Also, find the distance between these two lines.
+
+\item Find the value of $\vec{x}$ such that the four points with position vectors,
+$\vec{A}\brak{3\hat{i} + 2\hat{j} + \hat{k}}$, $\vec{B}\brak{4\hat{i} + x\hat{j} + 5\hat{k}}$, $\vec{C}\brak{4\hat{i} + 2\hat{j} -2 \hat{k}}$, $\vec{D}\brak{6\hat{i} + 5\hat{j} - \hat{k}}$ are coplanar.
+
+\item Find the vector equation of the plane determined by the points $\vec{A}\brak{3, -1, 2}, \vec{B}\brak{5, 2, 4}$ and $\vec{C}\brak{-1, -1, 6}$. Hence, find the distance of the plane, thus obtained,from the origin.
+
+\item Find the coordinates of the foot of the perpendicular $\vec{Q}$ drawn from $\vec{P}\brak{3, 2, 1}$ to the plane $2x - y + z + 1 = 0$. Also, find the distance $\vec{P}\vec{Q}$ and the image of the point $\vec{P}$ treating this plane as a mirror.
+
+\section{Differentiation}
+
+
+\item A ladder $13 m$ long is leaning against a vertical wall. The bottom of the ladder is dragged away from the wall along the ground at the rate of $2 cm/sec$. How fast is the height on the wall decreasing when the foot of the ladder is $5 m$ away from the wall ?
+
+
+\item If $y=\brak{\log x}^{x}+x^{\log x},$ find $\frac{dy}{dx}$.
+
+
+\item If $x = \sin t ,  y= \sin pt$ , prove that $\brak{1-x^{2}}\frac{d^{2}y}{d x^{2}} - x \frac{dy}{dx} + p^{2}y=0$.
+
+\item Differentiate 
+\begin{align*}
+  \tan^{-1}\brak{\frac{\sqrt{1+x^{2}}-\sqrt{1-x^{2}}}{\sqrt{1+x^{2}}+\sqrt{1-x^{2}}}}
+\end{align*} with respect to $\cos^{-1}x^{2}$.
+
+\item Form the differential equation representing the family of curves $y = A \sin x $, by eliminating the arbitrary constant $A$ .
+
+\section{Integration}
+
+\item Find the particular solution of the differential equation $\frac{d y}{d x}=\frac{xy}{x^{2}+y^{2}}$, given that $y = 1$ when $x = 0$.
+
+\item Solve the differential equation $\frac{dy} {dx} =1+x^{2}+y^{2}+x^{2}y^{2}$, given that $y = 1$ when $x = 0$.
+
+\item Prove that $\int_{0}^{a} f \brak {x}d x = \int_{0}^{a} f\brak{a-x} d x$, and hence evaluate  $\int_{0}^{1} x^{2}\brak{1-x}^{n}dx$ .
+
+\section{Linear forms}
+\item Using integration, find the area of the region bounded by the parabola $y^{2}=4x$ and the circle $4x^{2}+4y^{2}=9$.
+
+\item Using the method of integration, find the area of the region bounded by the lines $3x - 2y + 1 = 0, 2x + 3y - 21 = 0$ and $x - 5y + 9 = 0$.
+
+
+\item Using integration, find the area of the region bounded by the line
+$y = 3x + 2,$ the x-axis and the ordinates $x = - 2$ and $x = 1$.
+
+\item Using integration, find the area of the smaller region bounded by the ellipse $\frac{x^{2}}{9}+\frac{y^{2}}{4}=1$ and the line $\frac{x}{3}+\frac{y}{2}=1$.
+
+\section{Functions}
+\item Let $A= R - \{2\}$ and $B = R - \{1\}$. If $f : A \rightarrow B$ is a function defined by $f\brak{x}=\frac{x-1}{x-2}$, show that $f$ is one-one and onto. Hence, find $f^{-1}$.
+
+\item Show that the relation $S$ in the set $A = \{x \in Z : 0  \le x  \le 12\}$ given by $S= \{\brak{a, b} : a, b \in Z, a-b $ is divisible by $ 3 $ \} is an equivalence relation.
+
+\section{Optimization}
+
+\item A dietician wishes to mix two types of food in such a way that the vitamin contents of the mixture contains at least $8 \hspace{2pt}units$ of vitamin $A$ and $10\hspace{2pt}units$ of vitamin $C $. Food $I $ contains $2\hspace{2pt} units/kg$ of vitamin $A$ and $1\hspace{2pt} unit/kg$ of vitamin $C$. It costs \rupee$50 \hspace{2pt}per kg$ to produce food $I$. Food $II$ contains $1 \hspace{2pt}unit/kg$ of vitamin $A$ and $2\hspace{2pt} units/kg$ of vitamin $C$ and it costs \rupee $70\hspace{2pt} per kg$ to produce food $II$. Formulate this problem as a LPP to minimise the cost of a mixture that will produce the required diet. Also find the minimum cost.
+
+
+\item A manufacturer produces nuts and bolts. It takes $1$ hour of work on machine $A$ and $3$ hours on machine $B$ to produce a package of nuts. It takes $3$ hours on machine $A$ and $1$ hour on machine $B$ to produce a package of bolts. He earns a profit of \rupee~35 per package of nuts and \rupee~14 per package of bolts. How many packages of each should be produced each day so as to maximise his profit, if he operates each machine for atmost $12$ hours a day ? Convert it into an LPP and solve graphically.
+
+
+
+
+
+\end{enumerate}
+\end{document}\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{assign}
+\author{hima sai meghana}
+\date{January 2024}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\end{document}
